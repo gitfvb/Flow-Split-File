@@ -40,3 +40,10 @@ Function Count-Rows {
 }
 
 ~~~
+
+and it can be used with this call:
+
+~~~PowerShell
+$f = "c:\test.csv"
+Count-Rows -inputPath $f -header $true
+~~~
